@@ -1,0 +1,38 @@
+h1, h2 {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    clear: both;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+.main-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.flex-item {
+    
+}
+#display_container {
+    margin: 0 auto;
+}
+
+.cat-container-item {
+    display: none;
+}
+.cat-container-item.is-active {
+    display:flex;
+}
+
+#listitems li {
+    cursor: pointer;
+}
+
+.cat-list-item {
+    color: tomato;
+}
+.cat-list-item:hover {
+    color: #333;
+}
