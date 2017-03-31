@@ -51,6 +51,7 @@ $(function(){
         },
         render: function(){
             var htmlStr = '';
+            console.log(octopus.getNotes());
             octopus.getNotes().forEach(function(note){
                 htmlStr += '<li class="note">'+
                         note.content + 
