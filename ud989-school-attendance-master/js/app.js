@@ -21,7 +21,7 @@
                 attendance[name].push(getRandom());
             }
         });
-
+		console.log("this is the attendance: " + JSON.stringify(attendance));
         localStorage.attendance = JSON.stringify(attendance);
     }
 }());
